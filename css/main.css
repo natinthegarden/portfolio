@@ -1,0 +1,197 @@
+/****
+General
+****/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    font-weight: 200;
+}
+
+/* remove underlines from links */
+a {
+    text-decoration: none;
+}
+
+/*remove all bullet points */
+ul {
+    list-style: none;
+
+}
+
+/* images 100 of their container */
+img {
+    max-width: 100%;
+}
+
+/*set wrapper */
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: -10 0 0 0;
+    padding-bottom: 15px;
+}
+
+/***
+colors
+***/
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+/**
+background on mobile 
+**/
+nav {
+    background: #599a68;
+}
+
+h1,
+h2 {
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 600;
+}
+
+nav a:hover,
+nav a.selected {
+    color: #32673f;
+}
+
+a {
+    color: #6ab47b;
+}
+
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+/**
+header
+**/
+
+#logo {
+    text-align: center;
+    margin: 0px;
+    padding: 5px 0 00;
+
+}
+
+
+/***
+nav
+***/
+nav li {
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    padding: 0px 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+/***
+footer
+***/
+
+footer {
+    clear: both;
+    text-align: center;
+    color: #ccc;
+    padding-top: 50px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+/***
+page: portfolio
+***/
+
+#gallery {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #6d7980;
+}
+
+#gallery li p {
+    margin: 0;
+    padding: 5%;
+    font-size: .75em;
+}
+
+/***
+page: contact
+**/
+.contact-info {
+    padding: 0;
+    margin: 0;
+    font-size: .9em;
+}
+
+.contact-info a {
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url(../img/phone.png);
+}
+
+.contact-info li.email a {
+    background-image: url(../img/mail.png);
+}
+
+.contact-info li.twitter a {
+    background-image: url(../img/twitter.png);
+}
+
+/**
+page about
+**/
+.profile-photo {
+    max-width: 150px;
+    margin: 20px auto 20px;
+}

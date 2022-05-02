@@ -8,31 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--title tag-->
     <title>Document</title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <!--css links-->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <!--HEADER START-->
     <header>
         <!-- Clickable title that takes you to the index page-->
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>Natalya</h1>
             <h2>Front End Web Developer</h2>
         </a>
 
         <!--Navigation Start-->
-        <!--List of 3 Links-->
-        <ul>
-            <li><a href="#">Portfolio</li>
-            <li><a href="about.html">About<a></a></li>
-            <li><a href="contact.html">Contact<a></a></li>
-        </ul>
+        <nav>
+            <!--List of 3 Links-->
+            <ul>
+                <li><a href="#" class="selected"> Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <!--Navigation Finish-->
     </header>
     <!--Header FINISH-->
     <!--Gallery start-->
-    <div>
+
+    <div id="wrapper">
         <!--List of photos with text underneaSth-->
-        <ul>
+        <ul id="gallery">
             <li>
                 <img src="img/numbers-01.jpg">
                 <p>this is eight words something like this it</p>
@@ -59,9 +70,9 @@
     <!--Footer Start-->
     <footer>
         <!--Twitter Link thats clickable and opens in new page-->
-        <a href="https://twitter.com"><img src="img/twitter-wrap.png"></a>
+        <a href="https://twitter.com"><img src="img/twitter-wrap.png" class="social-icon"></a>
         <!-- Facebook link thats clickable and opens in new page-->
-        <a href="https://facebook.com"><img src="img/facebook-wrap.png"></a>
+        <a href="https://facebook.com"><img src="img/facebook-wrap.png" class="social-icon"></a>
         <!-- Copyright info-->
         <p>&copy; 2022 Nataalya</p>
     </footer>
